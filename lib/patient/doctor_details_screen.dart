@@ -205,6 +205,9 @@ class _DoctorDetailsScreenState extends State<DoctorDetailsScreen> {
         ),
         child: Row(
           children: [
+
+            Container(),
+
             Expanded(
               child: ElevatedButton(
                 onPressed: () {
